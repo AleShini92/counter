@@ -57,6 +57,6 @@ function min() {
 
     number.textContent = value;
 
-    // Turn minus red when the value reaches 0
+    // Turn number red when the value reaches 0
     number.style.color = value === 0 ? "red" : "white";
 }

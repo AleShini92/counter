@@ -9,6 +9,6 @@
 
 > **Project color**
 
-`#fff` <br>
-`#ffadef`<br>
-`#ea03f1`
+`#fff` • White<br>
+`#ffadef` • Pink <br>
+`#ea03f1` • LightPink
