@@ -5,6 +5,15 @@ const minus = document.createElement("div");
 const number = document.createElement("div");
 const plus = document.createElement("div");
 
+
+// add text
+
+const text = document.createElement("h1");
+text.textContent = "Count everything you need =)";
+text.className = "text";
+main.appendChild(text);
+
+
 // Add class 
 main.className = "container";
 counter.className = "container__counter";
@@ -28,8 +37,6 @@ counter.appendChild(minus);
 counter.appendChild(number);
 counter.appendChild(plus);
 
-
-
 /*
 *
 *   Function add() and min()
@@ -37,26 +44,31 @@ counter.appendChild(plus);
 *   const plus and minus
 */
 
-plus.addEventListener("click", add);
-minus.addEventListener("click", min);
+const p = document.createElement("p");
+main.appendChild(p);
+p.style.marginTop = "10px";
+p.textContent = "Sorry :(... you need to add a number";
 
 let value = 0;
 number.style.color = "red";
 
-function add() {
+// when click on plus element
+plus.addEventListener("click", () => {
     value++;
     number.textContent = value;
     number.style.color = "white";
-}
+    p.textContent = ""
+});
 
-
-function min() {
+// when click on minus element
+minus.addEventListener("click", () => {
     if (value > 0) {
         value--;
     }
-
     number.textContent = value;
 
     // Turn number red when the value reaches 0
     number.style.color = value === 0 ? "red" : "white";
-}
+
+    p.textContent = value === 0 ? "Sorry :(... you need to add a number" : "";
+});

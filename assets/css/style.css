@@ -13,12 +13,23 @@ body {
     font-style: normal;
     font-size: 20px;
     font-weight: 400;
+    background: url("../img/arrow.png") no-repeat;
+    background-size: cover;
+    background-color: #3c3c3c;
 }
 
 main.container {
     height: 100vh;
     display: flex;
     align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text {
+    color: hsl(312, 86%, 80%);
+    padding: 30px;
+    font-size: clamp(28px, 90%, 28px);
 }
 
 .container__counter {
@@ -40,5 +51,11 @@ main.container {
 
 .button {
     cursor: pointer;
-    padding: 10px;
+    padding: 10px 15px;
+}
+
+.button:hover {
+    border-radius: 10px;
+    background: hsl(310.98deg 90.11% 71.8%);
+    transition: .5s ease-in-out;
 }
