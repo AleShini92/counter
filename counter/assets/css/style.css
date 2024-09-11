@@ -1,0 +1,73 @@
+/* import font poppins from Google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,100&display=swap');
+
+
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bakcground_color:     hsl(0, 0%, 24%);
+    --background_number:    hsl(269, 92%, 75%);
+    --counter:              hsl(268.67deg 100% 84% / 53%);
+    --hover:                hsl(269, 39%, 53%);
+    --text_violet:          hsl(269, 82%, 74%);
+    --white:                hsl(0, 0%, 100%);
+}
+
+body {
+    background: url("../img/arrow.png") no-repeat;
+    background-color: var(--bakcground_color);
+    background-size: cover;
+    color: var(--white);
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+main.container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+}
+
+.text {
+    color: var(--text_violet);
+    font-size: clamp(28px, 90%, 28px);
+    padding: 30px;
+}
+
+.container__counter {
+    align-items: center;
+    background: var(--counter);
+    border-radius: 48px;
+    display: flex;
+    height: 80px;
+    margin: 0 auto;
+    justify-content: space-around;
+    width: 210px;
+}
+
+.number {
+    background: var(--background_number);
+    border: 5px solid var(--bakcground_color);
+    border-radius: 40px;
+    padding: 21px 31px;
+}
+
+.button {
+    cursor: pointer;
+    font-size: 26px;
+    padding: 3px 13px;
+}
+
+.button:hover {
+    background: var(--hover);
+    border-radius: 30px;
+    transition: .5s ease-in-out;
+}
