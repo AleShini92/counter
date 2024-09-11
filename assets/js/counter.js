@@ -41,7 +41,7 @@ main.appendChild(p);
 p.style.marginTop = "10px";
 p.textContent = `Sorry :(... you need to add a number`;
 
-
+const audio = new Audio("../assets/audio/click.mp3");
 
 /*
 *
@@ -58,7 +58,9 @@ plus.addEventListener("click", () => {
     value++;
     number.textContent = value;
     number.style.color = "white";
-    p.textContent = ""
+    p.textContent = "";
+
+    audio.play();
 });
 
 // when click on minus element
@@ -72,4 +74,6 @@ minus.addEventListener("click", () => {
     number.style.color = value === 0 ? "red" : "white";
 
     p.textContent = value === 0 ? "Sorry :(... you need to add a number" : "";
+
+    audio.play();
 });
