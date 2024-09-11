@@ -45,9 +45,9 @@ const audio = new Audio("../assets/audio/click.mp3");
 
 /*
 *
-*   Function add() and min()
-*   pass the function to the
-*   const plus and minus
+*   Function plus() and minus()
+*   with addEventListener & arrow function
+*
 */
 
 let value = 0;
