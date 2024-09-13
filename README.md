@@ -44,4 +44,4 @@ the value displayed on the web page initialized with the value 0.<br>
 
 > [!NOTE]
 > deploy prject on<br>
-[netlify](https://app.netlify.com/teams/aleshini92/sites)
+[netlify](https://www.netlify.com/)
