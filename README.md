@@ -40,3 +40,8 @@ the value displayed on the web page initialized with the value 0.<br>
 
 > #### **Responsive min with 320px**
 ![image responsive min-with:320px](assets/img/responsive.png)
+
+
+> [!NOTE]
+> deploy prject on<br>
+[netlify](https://app.netlify.com/teams/aleshini92/sites)
