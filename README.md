@@ -35,7 +35,7 @@ the value displayed on the web page initialized with the value 0.<br>
 
 > ## **Link Project online**
 
-[Link](https://jscounternumber.netlify.app/ =100x)
+[Link](https://jscounternumber.netlify.app/ =100x50)
 
 
 > #### **Responsive min with 320px **
