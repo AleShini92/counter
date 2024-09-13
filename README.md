@@ -1,12 +1,13 @@
-# counter
+# counter JS
 
 
-> **Javascript**
+> ## **Description**
 
-• ***I created with javascript all html elements.***<br>
-• And than custom with css - color and other design elements.<br>
-• I decided to start with color red number counter and then<br>
-• if number counter is different to 0 the color change with - white color.
+• create an application where the user can increase or decrease <br>
+the value displayed on the web page initialized with the value 0.<br>
+• DOM manipulation through js code to create html tags.
+
+[javascript] (https://github.com/AleShini92/counter/blob/main/assets/js/counter.js)
 
 > **Project color**
 
