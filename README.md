@@ -25,7 +25,7 @@ the value displayed on the web page initialized with the value 0.<br>
 
 > [!IMPORTANT]
 **Link to github file javascript in description:**<br>
-[javascript](https://github.com/AleShini92/counter/blob/main/assets/js/counter.js){target="_blank"}
+[javascript](https://github.com/AleShini92/counter/blob/main/assets/js/counter.js) {target="_blank}
 
 > #### **Project color**
 
@@ -35,7 +35,7 @@ the value displayed on the web page initialized with the value 0.<br>
 
 > ## **Link Project online**
 
-[Link](https://jscounternumber.netlify.app/){target="_blank"}
+[Link](https://jscounternumber.netlify.app/)
 
 
 > #### **Responsive min with 320px**
