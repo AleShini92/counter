@@ -36,7 +36,8 @@ the value displayed on the web page initialized with the value 0.<br>
 
 > ## **Link Project online**
 
-[Link](https://jscounternumber.netlify.app/)
+
+`</>` [Link](https://jscounternumber.netlify.app/)
 
 
 > #### **Responsive min with 320px**
@@ -45,4 +46,5 @@ the value displayed on the web page initialized with the value 0.<br>
 
 > [!NOTE]
 > deploy project on<br>
+
 [netlify](https://www.netlify.com/)
