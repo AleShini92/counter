@@ -11,7 +11,7 @@ the value displayed on the web page initialized with the value 0.<br>
 
 
 
-**Project**
+> ### **Project**
 > [!NOTE]
 > created with:
 
@@ -22,7 +22,7 @@ the value displayed on the web page initialized with the value 0.<br>
 - [x] img
 
 > [!IMPORTANT]
-**Link to github file javascript in description:**
+**Link to github file javascript in description:**<br>
 [javascript](https://github.com/AleShini92/counter/blob/main/assets/js/counter.js)
 
 > **Project color**
