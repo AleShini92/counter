@@ -2,9 +2,8 @@ import { main, counter, minus, number, plus, text, p, audio } from "./tags.js";
 
 /*
 *
-*   Function plus() and minus()
-*   with addEventListener & arrow function
-*
+*   Function 
+*   plus() and minus()
 */
 
 let value = 0;

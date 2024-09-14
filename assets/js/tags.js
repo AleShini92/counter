@@ -1,6 +1,6 @@
 /**
  * 
- *  file js created element
+ *  { elements }
  *  tags HTML
  * 
  */
