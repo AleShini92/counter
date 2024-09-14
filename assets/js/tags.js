@@ -12,6 +12,7 @@ const counter = document.createElement("section");
 const minus = document.createElement("div");
 const number = document.createElement("div");
 const plus = document.createElement("div");
+const p = document.createElement("p");
 
 // add text
 
@@ -37,18 +38,21 @@ number.textContent = 0;
 plus.className = "button";
 plus.textContent = "+";
 
+// p
+p.style.marginTop = "10px";
+p.textContent = `Sorry :(... you need to add a number`;
+
 // append element 
 document.body.appendChild(main);
 main.appendChild(counter);
+main.appendChild(p);
 counter.appendChild(minus);
 counter.appendChild(number);
 counter.appendChild(plus);
 
-const p = document.createElement("p");
-main.appendChild(p);
-p.style.marginTop = "10px";
-p.textContent = `Sorry :(... you need to add a number`;
-
+// created file audio
 const audio = new Audio("../assets/audio/click.mp3");
 
+
+// export all const
 export { main, counter, minus, number, plus, text, p, audio };
